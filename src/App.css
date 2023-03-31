@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Rye&display=swap');
+
+:root {
+  --font-primary: 'Cabin', sans-serif;
+  --font-display: 'Rye', cursive;
+  --color-light-pink: #E49393;
+  --color-pink: #B14C4C;
+  --color-light-blue: #CDE4DF;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(var(--color-light-pink), var(--color-pink)) no-repeat center center;
+}
+
+h1,h2,h3 {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background: var(--color-light-blue);
+  max-width: 80rem;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+  main {
+      background: var(--color-light-blue);
+      max-width: 60rem;
+      margin: 1rem auto;
+      border-radius: 5px;
+    }
+}

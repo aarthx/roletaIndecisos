@@ -1,0 +1,23 @@
+.footer {
+  position: flex;
+  bottom: 0;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  z-index: -1;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+}
+
+.footer p{
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 700px) {
+  .footer {
+    display: none;
+  }
+}
